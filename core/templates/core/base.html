@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %}[ Cinema 25/8 ] {% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">	
+    
+</head>
+<body>
+    {% include "core/includes/header.html" %}
+    {% block content %}{% endblock %}
+    {% include "core/includes/footer.html" %}
+</body>
+</html>
